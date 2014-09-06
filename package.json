@@ -1,0 +1,27 @@
+{
+  "name": "soa-example",
+  "version": "0.0.1",
+  "description": "A hello world example",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guillermocorrea/soa-example.git"
+  },
+  "keywords": [
+    "soa",
+    "rest"
+  ],
+  "author": "Luis Guillermo Correa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guillermocorrea/soa-example/issues"
+  },
+  "homepage": "https://github.com/guillermocorrea/soa-example",
+  "dependencies": {
+    "express": "~4.8.8",
+    "body-parser": "~1.8.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "soa-example",
+  "version": "0.0.1",
+  "homepage": "https://github.com/guillermocorrea/soa-example",
+  "authors": [
+    "Guillermo Correa <luis.guillermo.correa@hotmail.com>"
+  ],
+  "description": "hello world soa example, a calculator",
+  "main": "client/index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.23",
+    "bootstrap": "~3.2.0",
+    "angular-route": "~1.2.23",
+    "font-awesome": "~4.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+<form class="form-horizontal" role="form">
+    <div class="form-group">
+        <input type="text" class="form-control" id="firstNumber" placeholder="First number" ng-model="number1">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control" id="secondNumber" placeholder="Second number" ng-model="number2">
+    </div>
+    <button type="submit" class="btn btn-default" ng-click="sum(number1, number2)">Sum +</button>
+    <button type="submit" class="btn btn-default" ng-click="subtract(number1, number2)">Subtract -</button>
+    <br/>
+    <div class="form-group">
+        <input type="text" class="form-control" id="total" placeholder="Result" ng-model="total">
+    </div>
+</form>
